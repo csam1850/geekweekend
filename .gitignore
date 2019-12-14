@@ -1,0 +1,11 @@
+**/venv/**
+venv/
+
+__pycache__
+**/__pychache__
+.pytest_cache
+
+models/**
+**/models/**
+dt_model.sav
+knn_model.sav

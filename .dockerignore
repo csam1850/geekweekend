@@ -1,0 +1,13 @@
+.git
+.pytest_cache
+.vscode
+__pycache__
+models/knn_model.sav
+.gitignore
+venv
+**/venv/**
+**/fruits-360/**
+fruits-360/*
+fruits-360
+
+
