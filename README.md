@@ -12,12 +12,14 @@
 https://code.visualstudio.com/docs/python/tutorial-create-containers
 
 # how to use git
+```bash
 git echo "# geekweekend" >> README.md  
 git init  
 git add README.md  
 git commit -m "first commit"   
 git remote add origin https://github.com/csam1850/geekweekend.git  
 git push -u origin master  
+```
 
 # dataset
 https://www.kaggle.com/moltean/fruits
