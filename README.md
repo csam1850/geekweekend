@@ -12,24 +12,24 @@
 https://code.visualstudio.com/docs/python/tutorial-create-containers
 
 # how to use git
-git echo "# geekweekend" >> README.md \newline
-git init \newline
-git add README.md \newline
-git commit -m "first commit" \newline
-git remote add origin https://github.com/csam1850/geekweekend.git \newline
-git push -u origin master \newline
+git echo "# geekweekend" >> README.md  
+git init  
+git add README.md  
+git commit -m "first commit"   
+git remote add origin https://github.com/csam1850/geekweekend.git  
+git push -u origin master  
 
 # dataset
 https://www.kaggle.com/moltean/fruits
 
 # example models from kaggle
-https://www.kaggle.com/mitch9090/fruit-dataset-image-classification-network \newline
-https://www.kaggle.com/litzar/fruits-classification \newline
-https://www.kaggle.com/aninditapani/cnn-from-scratch-with-98-accuracy \newline
+https://www.kaggle.com/mitch9090/fruit-dataset-image-classification-network  
+https://www.kaggle.com/litzar/fruits-classification  
+https://www.kaggle.com/aninditapani/cnn-from-scratch-with-98-accuracy  
 https://www.kaggle.com/waltermaffy/fruit-classification-pca-svm-knn-decision-tree 
 
 # example Flask-apps
-https://github.com/OkanKY/keras-flask-webapp \newline
+https://github.com/OkanKY/keras-flask-webapp  
 https://github.com/ibrahimokdadov/upload_file_python
 
 # creating docker images
@@ -39,8 +39,8 @@ https://code.visualstudio.com/docs/python/tutorial-create-containers
 https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
 
 # using azure cognitive services
-https://azure.microsoft.com/de-de/services/cognitive-services/custom-vision-service/ \newline
-https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/ \newline getting-started-build-a-classifier \newline
-https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/python-tutorial \newline
-https://docs.microsoft.com/bs-latn-ba/azure/cognitive-services/custom-vision-service/export-your-model \newline
+https://azure.microsoft.com/de-de/services/cognitive-services/custom-vision-service/  
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/  getting-started-build-a-classifier  
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/python-tutorial  
+https://docs.microsoft.com/bs-latn-ba/azure/cognitive-services/custom-vision-service/export-your-model  
 https://docs.microsoft.com/bs-latn-ba/azure/cognitive-services/custom-vision-service/export-model-python
