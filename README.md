@@ -35,14 +35,16 @@ https://github.com/OkanKY/keras-flask-webapp
 https://github.com/ibrahimokdadov/upload_file_python
 
 # creating docker images
-https://code.visualstudio.com/docs/python/tutorial-create-containers
+https://code.visualstudio.com/docs/python/tutorial-create-containers  
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xix-deployment-on-docker-containers  
 
 # deploying docker image
 https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
 
 # using azure cognitive services
 https://azure.microsoft.com/de-de/services/cognitive-services/custom-vision-service/  
-https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/  getting-started-build-a-classifier  
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/  
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier  
 https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/python-tutorial  
 https://docs.microsoft.com/bs-latn-ba/azure/cognitive-services/custom-vision-service/export-your-model  
 https://docs.microsoft.com/bs-latn-ba/azure/cognitive-services/custom-vision-service/export-model-python
