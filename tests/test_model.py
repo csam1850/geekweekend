@@ -6,7 +6,7 @@ DIM = 100
 
 
 def test_classifier_orange():
-    image_name = 'strawberry.jpg'
+    image_name = 'Orange.jpg'
     # load image data
     dir_path = os.path.dirname(os.path.realpath(__file__))
     image_path = os.path.join(dir_path, image_name)
@@ -29,10 +29,5 @@ def test_classifier_orange():
     filename = 'models/svm_model.sav'
     svm_model = pickle.load(open(filename, 'rb'))
     result = int(svm_model.predict(image_data))
-    print(FRUITS[result])
-
-    # image = trim(image_path)
 
     assert FRUITS[result] == 'Orange'
-
-    # TODO: write test case here

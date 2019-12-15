@@ -5,7 +5,7 @@ that images are still valid for training. It is also possible to reduce the
 size for the custom vision classifier.
 
 """
-# pylint: disable=no-member
+# pylint: disable=no-member, unused-variable
 
 
 import os
