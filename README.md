@@ -1,14 +1,14 @@
 # prerequisites
-[git client](https://git-scm.com/download/win) \newline
-[python 3.7.5 64-bit] (https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe) \newline
-[vs code](https://code.visualstudio.com/download#) \newline
-[docker for windows](https://docs.docker.com/docker-for-windows/install/) \newline
+[git client](https://git-scm.com/download/win)  
+[python 3.7.5 64-bit] (https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)  
+[vs code](https://code.visualstudio.com/download#)  
+[docker for windows](https://docs.docker.com/docker-for-windows/install/)  
 
 # vs code extensions
-[python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) \newline
-[code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) \newline
-[intelliCode](https://visualstudio.microsoft.com/de/services/intellicode/) \newline
-[docker] (https://code.visualstudio.com/docs/azure/docker) \newline
+[python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
+[code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)  
+[intelliCode](https://visualstudio.microsoft.com/de/services/intellicode/)  
+[docker] (https://code.visualstudio.com/docs/azure/docker)  
 https://code.visualstudio.com/docs/python/tutorial-create-containers
 
 # how to use git
