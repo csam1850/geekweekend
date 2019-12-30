@@ -2,12 +2,11 @@ import numpy as np
 from sklearn.utils.multiclass import unique_labels
 from sklearn import metrics
 import matplotlib.pyplot as plt
+from load_data import FRUITS
 
 
-def plot_confusion_matrix(y_true, y_pred, classes, fruits,
-                          normalize=False,
-                          title=None,
-                          cmap=plt.cm.Blues):
+def plot_confusion_matrix(y_true, y_pred, fruits=FRUITS, normalize=False,
+                          title=None, cmap=plt.cm.Blues):
     """
     This function prints and plots the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
@@ -21,7 +20,6 @@ def plot_confusion_matrix(y_true, y_pred, classes, fruits,
     # Compute confusion matrix
     cm = metrics.confusion_matrix(y_true, y_pred)
     # Only use the labels that appear in the data
-    classes = unique_labels(y_true, y_pred)
     if normalize:
         cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
 
