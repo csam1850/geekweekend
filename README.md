@@ -1,6 +1,6 @@
 # prerequisites
 [git client](https://git-scm.com/download/win)  
-[python 3.7.5 64-bit] (https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)  
+[python 3.7.5 64-bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)  
 [vs code](https://code.visualstudio.com/download#)  
 [docker for windows](https://docs.docker.com/docker-for-windows/install/)  
 
@@ -8,7 +8,7 @@
 [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
 [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)  
 [intelliCode](https://visualstudio.microsoft.com/de/services/intellicode/)  
-[docker] (https://code.visualstudio.com/docs/azure/docker)  
+[docker](https://code.visualstudio.com/docs/azure/docker)  
 https://code.visualstudio.com/docs/python/tutorial-create-containers
 
 # how to use git
@@ -40,6 +40,9 @@ https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xix-deployment
 
 # deploying docker image
 https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
+https://code.visualstudio.com/docs/azure/docker
+https://docs.microsoft.com/en-us/azure/python/tutorial-deploy-containers-01
+
 
 # using azure cognitive services
 https://azure.microsoft.com/de-de/services/cognitive-services/custom-vision-service/  

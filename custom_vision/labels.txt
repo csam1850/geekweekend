@@ -2,7 +2,7 @@ Apricot
 Avocado
 Banana
 Kiwi
-lemon
+Lemon
 Nectarine
 Nectarine Flat
 Orange
