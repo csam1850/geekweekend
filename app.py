@@ -102,6 +102,7 @@ def upload_cv():
 def send_image(filename):
     return send_from_directory('images', filename)
 
+
 # running REST interface
 # use debug=True when debugging
 if __name__ == "__main__":

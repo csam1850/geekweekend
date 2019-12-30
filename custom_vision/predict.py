@@ -13,7 +13,8 @@ def predict_image(image, labels):
             predictions, = sess.run(prob_tensor, {input_node: [image]})
         except KeyError:
             print("Couldn't find classification output layer: " + output_layer)
-            print("Verify this a model exported from an Object Detection project.")
+            print("Verify this a model exported from an Object Detection \
+                   project.")
             exit(-1)
 
     # Print the highest probability label
@@ -27,5 +28,5 @@ def predict_image(image, labels):
         truncated_probablity = np.float64(np.round(p, 8))
         print(labels[label_index], truncated_probablity)
         label_index += 1
-    
+
     return labels[highest_probability_index]

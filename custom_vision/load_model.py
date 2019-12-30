@@ -8,7 +8,7 @@ def load_model_and_tags(dir_path):
     graph_def = tf.compat.v1.GraphDef()
     labels = []
 
-    # These are set to the default names from exported models, update as needed.
+    # These are set to the default names from exported models, update as needed
     filename = "model.pb"
     filepath = os.path.join(dir_path, filename)
     labels_filename = "labels.txt"
