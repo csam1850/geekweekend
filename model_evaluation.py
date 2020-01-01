@@ -1,5 +1,9 @@
+"""
+this module serves for assessing model performance
+"""
+# pylint: disable=no-member
+
 import numpy as np
-from sklearn.utils.multiclass import unique_labels
 from sklearn import metrics
 import matplotlib.pyplot as plt
 from load_data import FRUITS

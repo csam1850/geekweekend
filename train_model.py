@@ -1,7 +1,7 @@
 import pickle
 from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier  # noqa: F401
+from sklearn.tree import DecisionTreeClassifier  # noqa: F401
 from sklearn import metrics
 from sklearn.svm import SVC
 import matplotlib.pyplot as plt

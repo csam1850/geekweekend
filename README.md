@@ -36,13 +36,12 @@ https://github.com/ibrahimokdadov/upload_file_python
 
 # creating docker images
 https://code.visualstudio.com/docs/python/tutorial-create-containers  
+https://code.visualstudio.com/docs/azure/docker  
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xix-deployment-on-docker-containers  
 
 # deploying docker image
-https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
-https://code.visualstudio.com/docs/azure/docker
-https://docs.microsoft.com/en-us/azure/python/tutorial-deploy-containers-01
-
+https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image  
+https://docs.microsoft.com/en-us/azure/python/tutorial-deploy-containers-01  
 
 # using azure cognitive services
 https://azure.microsoft.com/de-de/services/cognitive-services/custom-vision-service/  
