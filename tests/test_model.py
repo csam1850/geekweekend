@@ -5,8 +5,7 @@ from load_data import load_single_image, trim, FRUITS
 DIM = 100
 
 
-def test_classifier_orange():
-    image_name = 'Orange.jpg'
+def test_classifier(image_name, expected):
     # load image data
     dir_path = os.path.dirname(os.path.realpath(__file__))
     image_path = os.path.join(dir_path, image_name)
@@ -30,4 +29,13 @@ def test_classifier_orange():
     svm_model = pickle.load(open(filename, 'rb'))
     result = int(svm_model.predict(image_data))
 
-    assert FRUITS[result] == 'Orange'
+    print(FRUITS[result])
+    assert FRUITS[result] == expected
+
+
+test_classifier('Orange.jpg', 'Orange')
+test_classifier('Banana.jpg', 'Banana')
+test_classifier('Kiwi.jpg', 'Kiwi')
+test_classifier('Lemon.jpg', 'Lemon')
+test_classifier('Pineapple.jpg', 'Pineapple')
+test_classifier('Strawberry.jpg', 'Strawberry')
