@@ -3,13 +3,17 @@
 [python 3.7.5 64-bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)  
 [vs code](https://code.visualstudio.com/download#)  
 [docker for windows](https://docs.docker.com/docker-for-windows/install/)  
+  
+Please note I deliberatly uploaded .vscode to github which contains hardcoded 
+information from my personal workspace, which you need to adjust. The important
+part is the PythonPath environment variable, which should point to your 
+repository and not to your python.exe as one might expect from its name
 
 # vs code extensions
 [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
 [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)  
 [intelliCode](https://visualstudio.microsoft.com/de/services/intellicode/)  
 [docker](https://code.visualstudio.com/docs/azure/docker)  
-https://code.visualstudio.com/docs/python/tutorial-create-containers
 
 # how to use git
 ```bash
@@ -19,6 +23,16 @@ git add README.md
 git commit -m "first commit"   
 git remote add origin https://github.com/csam1850/geekweekend.git  
 git push -u origin master  
+```
+
+# setting up your workspace
+```python
+# this command creates a virtal environment  
+python -m venv venv  
+# activating the environment  
+venv\Scripts\activate  
+# installing the libraries with the specified version  
+pip install -r requirements.txt
 ```
 
 # dataset
