@@ -1,17 +1,19 @@
 # setting up your workspace
 
 ## Installation requirements
-### prerequisites
+### necessary software
 [git client](https://git-scm.com/download/win)  
 [python 3.7.5 64-bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)  
 [vs code](https://code.visualstudio.com/download#)  
 [docker for windows](https://docs.docker.com/docker-for-windows/install/)  
+[azure cli](https://docs.microsoft.com/de-de/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 
-### vs code extensions
+### highly recommended vs code extensions
 [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
 [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)  
 [intelliCode](https://visualstudio.microsoft.com/de/services/intellicode/)  
 [docker](https://code.visualstudio.com/docs/azure/docker)  
+[Azure App Service](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
 
 
 ## set-up instructions
@@ -54,9 +56,31 @@ flask run
 take care that the port is not blocked by the flask application
 
 ```shell
-docker build -t classifier .
-docker run -d -p 5000:5000 classifier
+docker build -t geekweekendcontainer.azurecr.io/classifier:latest .
+docker run -d -p 5000:5000 geekweekendcontainer.azurecr.io/classifier:latest
 ```
+
+### Creating a Docker Container and pushing it to a registry
+pushing the container image to azure docker registry  
+go to Azure portal first and create a container registry - make sure to put
+admin on enabled  
+
+```shell
+# login to azure
+az login
+# login to azure container registry
+az acr login --name <acrName>
+```  
+right click the image and push *OR ALERNATIVELY* on the Command Palette (Ctrl+Shift+P), select Docker: Push.
+
+
+### Deploying a container image to Azure App Service
+right click the image in the registry and press `Deploy Image to Azure App Service`  
+follow the prompts  
+go to Azure App Service in vs code right click your application and press
+`Add New Setting...`. Type in WEBSITES_PORT and 5000 to expose the port of your
+container
+
 
 # Sources
 ## dataset

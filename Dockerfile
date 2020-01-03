@@ -2,6 +2,8 @@ FROM python:3.7.5
 
 WORKDIR /application
 
+LABEL maintainer="geekweekend" 
+
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
